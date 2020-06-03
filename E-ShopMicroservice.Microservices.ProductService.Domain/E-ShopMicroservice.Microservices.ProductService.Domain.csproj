@@ -6,10 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Events\" />
-    <Folder Include="Entities\" />
     <Folder Include="EventHandlers\" />
-    <Folder Include="Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-ShopMicroservices.Commons.Common\E-ShopMicroservices.Common.csproj" />
+    <ProjectReference Include="..\E-ShopMicroservices.Domain.Core\E-ShopMicroservices.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>

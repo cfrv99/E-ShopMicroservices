@@ -12,3 +12,9 @@ C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructu
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\obj\Debug\netcoreapp3.1\E-ShopMicroservices.Infrastructure.IoC.csproj.CopyComplete
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\obj\Debug\netcoreapp3.1\E-ShopMicroservices.Infrastructure.IoC.dll
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\obj\Debug\netcoreapp3.1\E-ShopMicroservices.Infrastructure.IoC.pdb
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\bin\Debug\netcoreapp3.1\E-ShopMicroservice.Microservices.ProductService.Domain.dll
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\bin\Debug\netcoreapp3.1\E-ShopMicroservices.Common.dll
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\bin\Debug\netcoreapp3.1\E-ShopMicroservice.Microservices.ProductService.Domain.pdb
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\bin\Debug\netcoreapp3.1\E-ShopMicroservices.Common.pdb
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\bin\Debug\netcoreapp3.1\E-ShopMicroservices.Data.DAL.dll
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\bin\Debug\netcoreapp3.1\E-ShopMicroservices.Data.DAL.pdb

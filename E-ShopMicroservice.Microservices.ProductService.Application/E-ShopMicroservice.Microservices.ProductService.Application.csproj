@@ -15,4 +15,8 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\E-ShopMicroservices.Data.DAL\E-ShopMicroservices.Data.DAL.csproj" />
+  </ItemGroup>
+
 </Project>
