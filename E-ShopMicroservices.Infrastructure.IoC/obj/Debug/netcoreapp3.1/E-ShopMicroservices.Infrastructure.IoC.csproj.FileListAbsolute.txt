@@ -18,3 +18,5 @@ C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructu
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\bin\Debug\netcoreapp3.1\E-ShopMicroservices.Common.pdb
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\bin\Debug\netcoreapp3.1\E-ShopMicroservices.Data.DAL.dll
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\bin\Debug\netcoreapp3.1\E-ShopMicroservices.Data.DAL.pdb
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\bin\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Domain.dll
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.Infrastructure.IoC\bin\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Domain.pdb

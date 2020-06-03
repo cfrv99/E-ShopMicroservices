@@ -17,11 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation.APIs", "Presen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation.MVCs", "Presentation.MVCs", "{3F0D7A78-E68A-4154-A106-D24AF98FAD2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservices.Domain.Core", "E-ShopMicroservices.Domain.Core\E-ShopMicroservices.Domain.Core.csproj", "{F4144691-366D-4D04-8A39-7B56B5B8CA87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservices.Domain.Core", "E-ShopMicroservices.Domain.Core\E-ShopMicroservices.Domain.Core.csproj", "{F4144691-366D-4D04-8A39-7B56B5B8CA87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservice.Infrastructure.Bus", "E-ShopMicroservice.Infrastructure.Bus\E-ShopMicroservice.Infrastructure.Bus.csproj", "{2A793820-8C9F-4842-9D8E-0338F55F4EDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservice.Infrastructure.Bus", "E-ShopMicroservice.Infrastructure.Bus\E-ShopMicroservice.Infrastructure.Bus.csproj", "{2A793820-8C9F-4842-9D8E-0338F55F4EDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservices.Infrastructure.IoC", "E-ShopMicroservices.Infrastructure.IoC\E-ShopMicroservices.Infrastructure.IoC.csproj", "{0630F462-9848-48D6-808F-0E0B96E72CF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservices.Infrastructure.IoC", "E-ShopMicroservices.Infrastructure.IoC\E-ShopMicroservices.Infrastructure.IoC.csproj", "{0630F462-9848-48D6-808F-0E0B96E72CF3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{75F0DF28-B9EF-466F-A5C5-25CC7F5AA643}"
 EndProject
@@ -33,25 +33,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B604F5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{045A2C81-E954-46EA-9660-82E3399EDEF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservice.Microservices.ProductService.API", "E-ShopMicroservice.Microservices.ProductService.API\E-ShopMicroservice.Microservices.ProductService.API.csproj", "{D0545B94-1CDF-4278-9D6B-38900A22B8AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservice.Microservices.ProductService.API", "E-ShopMicroservice.Microservices.ProductService.API\E-ShopMicroservice.Microservices.ProductService.API.csproj", "{D0545B94-1CDF-4278-9D6B-38900A22B8AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservice.Microservices.ProductService.Application", "E-ShopMicroservice.Microservices.ProductService.Application\E-ShopMicroservice.Microservices.ProductService.Application.csproj", "{90458CFE-81CC-4B8A-B04B-3DAF9CC2EB26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservice.Microservices.ProductService.Application", "E-ShopMicroservice.Microservices.ProductService.Application\E-ShopMicroservice.Microservices.ProductService.Application.csproj", "{90458CFE-81CC-4B8A-B04B-3DAF9CC2EB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservice.Microservices.ProductService.Domain", "E-ShopMicroservice.Microservices.ProductService.Domain\E-ShopMicroservice.Microservices.ProductService.Domain.csproj", "{1C23AB74-1A5A-45CB-87EE-303BAA5279E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservice.Microservices.ProductService.Domain", "E-ShopMicroservice.Microservices.ProductService.Domain\E-ShopMicroservice.Microservices.ProductService.Domain.csproj", "{1C23AB74-1A5A-45CB-87EE-303BAA5279E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservices.Common", "E-ShopMicroservices.Commons.Common\E-ShopMicroservices.Common.csproj", "{A2E73361-8C88-45F0-981B-DD2ACDFA806C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservices.Common", "E-ShopMicroservices.Commons.Common\E-ShopMicroservices.Common.csproj", "{A2E73361-8C88-45F0-981B-DD2ACDFA806C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{97325866-6D1F-46D7-86D9-7FE72EBD4740}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservices.Data.DAL", "E-ShopMicroservices.Data.DAL\E-ShopMicroservices.Data.DAL.csproj", "{503DADFD-1252-4311-9221-4A527076427A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservices.Data.DAL", "E-ShopMicroservices.Data.DAL\E-ShopMicroservices.Data.DAL.csproj", "{503DADFD-1252-4311-9221-4A527076427A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservices.ApiGateway", "E-ShopMicroservices.ApiGateway\E-ShopMicroservices.ApiGateway.csproj", "{FF40F9D0-3A25-46E6-BC69-2E7A5CD346FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservices.ApiGateway", "E-ShopMicroservices.ApiGateway\E-ShopMicroservices.ApiGateway.csproj", "{FF40F9D0-3A25-46E6-BC69-2E7A5CD346FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservices.Presentation.API", "E-ShopMicroservices.Presentation.API\E-ShopMicroservices.Presentation.API.csproj", "{6B7C1B52-D710-4931-BFCE-B22E296C1673}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservices.Presentation.API", "E-ShopMicroservices.Presentation.API\E-ShopMicroservices.Presentation.API.csproj", "{6B7C1B52-D710-4931-BFCE-B22E296C1673}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CartService", "CartService", "{69E59411-890F-43E0-B75F-9BEF22252345}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CategoroyService", "CategoroyService", "{91733963-CDF5-45D6-A579-C0A7579FD496}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CategoryService", "CategoryService", "{91733963-CDF5-45D6-A579-C0A7579FD496}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{1433165B-9556-4711-9881-908E433BAC61}"
 EndProject
@@ -73,13 +73,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6AA0A773-5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2227EBF4-C17C-4E05-8317-9C9B93661699}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservices.UserService.API", "E-ShopMicroservices.UserService.API\E-ShopMicroservices.UserService.API.csproj", "{E776E48A-3E36-44D4-B994-3EAACBC39CA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservices.UserService.API", "E-ShopMicroservices.UserService.API\E-ShopMicroservices.UserService.API.csproj", "{E776E48A-3E36-44D4-B994-3EAACBC39CA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservices.UserService.Application", "E-ShopMicroservices.UserService.Application\E-ShopMicroservices.UserService.Application.csproj", "{5342D2C3-3758-4356-B35A-FE226A0F6157}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservices.UserService.Application", "E-ShopMicroservices.UserService.Application\E-ShopMicroservices.UserService.Application.csproj", "{5342D2C3-3758-4356-B35A-FE226A0F6157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservices.UserService.Domain", "E-ShopMicroservices.UserService.Domain\E-ShopMicroservices.UserService.Domain.csproj", "{37E72FBE-3D5E-4FC3-8B63-28A1D692386B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservices.UserService.Domain", "E-ShopMicroservices.UserService.Domain\E-ShopMicroservices.UserService.Domain.csproj", "{37E72FBE-3D5E-4FC3-8B63-28A1D692386B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-ShopMicroservices.UserService.Data", "E-ShopMicroservices.UserService.Data\E-ShopMicroservices.UserService.Data.csproj", "{B40DB1AF-CA76-474F-96B1-057F7BF931FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-ShopMicroservices.UserService.Data", "E-ShopMicroservices.UserService.Data\E-ShopMicroservices.UserService.Data.csproj", "{B40DB1AF-CA76-474F-96B1-057F7BF931FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{43B84EB6-7F2E-4F0B-A0DE-126E0E84FF6D}"
 EndProject

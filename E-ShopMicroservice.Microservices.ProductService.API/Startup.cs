@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using E_ShopMicroservices.Data.DAL.Context;
 using E_ShopMicroservices.Infrastructure.IoC;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +32,7 @@ namespace E_ShopMicroservice.Microservices.ProductService.API
             RegisterService(services);
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));//,config=>config.MigrationsAssembly("E-ShopMicroservice.Microservices.ProductService.Infrastructure")));
             services.AddControllers();
+            services.AddMediatR(typeof(Startup));
         }
 
 

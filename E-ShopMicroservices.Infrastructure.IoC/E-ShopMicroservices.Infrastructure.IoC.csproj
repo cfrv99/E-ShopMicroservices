@@ -15,6 +15,7 @@
     <ProjectReference Include="..\E-ShopMicroservices.Commons.Common\E-ShopMicroservices.Common.csproj" />
     <ProjectReference Include="..\E-ShopMicroservices.Data.DAL\E-ShopMicroservices.Data.DAL.csproj" />
     <ProjectReference Include="..\E-ShopMicroservices.Domain.Core\E-ShopMicroservices.Domain.Core.csproj" />
+    <ProjectReference Include="..\E-ShopMicroservices.UserService.Domain\E-ShopMicroservices.UserService.Domain.csproj" />
   </ItemGroup>
 
 </Project>

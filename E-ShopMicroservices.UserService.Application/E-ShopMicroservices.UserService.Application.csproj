@@ -5,4 +5,8 @@
     <RootNamespace>E_ShopMicroservices.UserService.Application</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\E-ShopMicroservices.UserService.Data\E-ShopMicroservices.UserService.Data.csproj" />
+  </ItemGroup>
+
 </Project>
