@@ -15,3 +15,4 @@ C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservice.Microservices
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservice.Microservices.ProductService.Application\bin\Debug\netcoreapp3.1\E-ShopMicroservices.Common.pdb
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservice.Microservices.ProductService.Application\bin\Debug\netcoreapp3.1\E-ShopMicroservices.Domain.Core.pdb
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservice.Microservices.ProductService.Application\obj\Debug\netcoreapp3.1\E-ShopMicroservice.Microservices.ProductService.Application.csproj.CopyComplete
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservice.Microservices.ProductService.Application\obj\Debug\netcoreapp3.1\E-ShopMicroservice.Microservices.ProductService.Application.csproj.CoreCompileInputs.cache

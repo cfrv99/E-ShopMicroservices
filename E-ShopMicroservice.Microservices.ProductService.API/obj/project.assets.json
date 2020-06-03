@@ -36,6 +36,19 @@
           "lib/netstandard2.0/MediatR.dll": {}
         }
       },
+      "MediatR.Extensions.Microsoft.DependencyInjection/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -373,6 +386,27 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RabbitMQ.Client/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -703,6 +737,15 @@
         },
         "runtime": {
           "lib/netstandard1.6/System.Linq.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
         }
       },
       "System.Net.NameResolution/4.3.0": {
@@ -1315,6 +1358,22 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "E-ShopMicroservice.Infrastructure.Bus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "E-ShopMicroservices.Domain.Core": "1.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "RabbitMQ.Client": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/E-ShopMicroservice.Infrastructure.Bus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/E-ShopMicroservice.Infrastructure.Bus.dll": {}
+        }
+      },
       "E-ShopMicroservice.Microservices.ProductService.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1383,6 +1442,24 @@
         "runtime": {
           "bin/placeholder/E-ShopMicroservices.Domain.Core.dll": {}
         }
+      },
+      "E-ShopMicroservices.Infrastructure.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "E-ShopMicroservice.Infrastructure.Bus": "1.0.0",
+          "E-ShopMicroservice.Microservices.ProductService.Domain": "1.0.0",
+          "E-ShopMicroservices.Common": "1.0.0",
+          "E-ShopMicroservices.Data.DAL": "1.0.0",
+          "E-ShopMicroservices.Domain.Core": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.4"
+        },
+        "compile": {
+          "bin/placeholder/E-ShopMicroservices.Infrastructure.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/E-ShopMicroservices.Infrastructure.IoC.dll": {}
+        }
       }
     }
   },
@@ -1437,6 +1514,18 @@
         "lib/netstandard2.0/MediatR.xml",
         "mediatr.8.0.1.nupkg.sha512",
         "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/8.0.0": {
+      "sha512": "qGa+dbfrpk6y01swgc0uM+jG5tkb5xVeY1P4iByd3NQCDO7nmrMBnBRoMGhKlSigQ6iWXDiwOpzC01W4xrJxLg==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1999,6 +2088,56 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "RabbitMQ.Client/6.0.0": {
+      "sha512": "8e7KK44Fai72F452GF8KxUAW5t+ik3rUcalpQaxQNv6DxZyQTgVioWfyYSGYF6qpUqDdy7ZmvD3Zgkm7pKNR9w==",
+      "type": "package",
+      "path": "rabbitmq.client/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net461/RabbitMQ.Client.dll",
+        "lib/net461/RabbitMQ.Client.pdb",
+        "lib/net461/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.pdb",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.0.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -3157,6 +3296,29 @@
         "ref/xamarinwatchos10/_._",
         "system.linq.4.3.0.nupkg.sha512",
         "system.linq.nuspec"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Net.NameResolution/4.3.0": {
@@ -5147,6 +5309,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "E-ShopMicroservice.Infrastructure.Bus/1.0.0": {
+      "type": "project",
+      "path": "../E-ShopMicroservice.Infrastructure.Bus/E-ShopMicroservice.Infrastructure.Bus.csproj",
+      "msbuildProject": "../E-ShopMicroservice.Infrastructure.Bus/E-ShopMicroservice.Infrastructure.Bus.csproj"
+    },
     "E-ShopMicroservice.Microservices.ProductService.Application/1.0.0": {
       "type": "project",
       "path": "../E-ShopMicroservice.Microservices.ProductService.Application/E-ShopMicroservice.Microservices.ProductService.Application.csproj",
@@ -5171,11 +5338,17 @@
       "type": "project",
       "path": "../E-ShopMicroservices.Domain.Core/E-ShopMicroservices.Domain.Core.csproj",
       "msbuildProject": "../E-ShopMicroservices.Domain.Core/E-ShopMicroservices.Domain.Core.csproj"
+    },
+    "E-ShopMicroservices.Infrastructure.IoC/1.0.0": {
+      "type": "project",
+      "path": "../E-ShopMicroservices.Infrastructure.IoC/E-ShopMicroservices.Infrastructure.IoC.csproj",
+      "msbuildProject": "../E-ShopMicroservices.Infrastructure.IoC/E-ShopMicroservices.Infrastructure.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "E-ShopMicroservice.Microservices.ProductService.Application >= 1.0.0",
+      "E-ShopMicroservices.Infrastructure.IoC >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.4",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.4"
     ]
@@ -5208,6 +5381,9 @@
           "projectReferences": {
             "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Microservices.ProductService.Application\\E-ShopMicroservice.Microservices.ProductService.Application.csproj": {
               "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Microservices.ProductService.Application\\E-ShopMicroservice.Microservices.ProductService.Application.csproj"
+            },
+            "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Infrastructure.IoC\\E-ShopMicroservices.Infrastructure.IoC.csproj": {
+              "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Infrastructure.IoC\\E-ShopMicroservices.Infrastructure.IoC.csproj"
             }
           }
         }

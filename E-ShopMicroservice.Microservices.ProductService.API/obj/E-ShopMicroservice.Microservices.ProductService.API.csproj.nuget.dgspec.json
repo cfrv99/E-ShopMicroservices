@@ -4,6 +4,76 @@
     "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Microservices.ProductService.API\\E-ShopMicroservice.Microservices.ProductService.API.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj",
+        "projectName": "E-ShopMicroservice.Infrastructure.Bus",
+        "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj",
+        "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Infrastructure.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Microservices.ProductService.API\\E-ShopMicroservice.Microservices.ProductService.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,6 +99,9 @@
             "projectReferences": {
               "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Microservices.ProductService.Application\\E-ShopMicroservice.Microservices.ProductService.Application.csproj": {
                 "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Microservices.ProductService.Application\\E-ShopMicroservice.Microservices.ProductService.Application.csproj"
+              },
+              "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Infrastructure.IoC\\E-ShopMicroservices.Infrastructure.IoC.csproj": {
+                "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Infrastructure.IoC\\E-ShopMicroservices.Infrastructure.IoC.csproj"
               }
             }
           }
@@ -369,6 +442,80 @@
             "MediatR": {
               "target": "Package",
               "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Infrastructure.IoC\\E-ShopMicroservices.Infrastructure.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Infrastructure.IoC\\E-ShopMicroservices.Infrastructure.IoC.csproj",
+        "projectName": "E-ShopMicroservices.Infrastructure.IoC",
+        "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Infrastructure.IoC\\E-ShopMicroservices.Infrastructure.IoC.csproj",
+        "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Infrastructure.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj": {
+                "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj"
+              },
+              "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Microservices.ProductService.Domain\\E-ShopMicroservice.Microservices.ProductService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Microservices.ProductService.Domain\\E-ShopMicroservice.Microservices.ProductService.Domain.csproj"
+              },
+              "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj": {
+                "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj"
+              },
+              "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Data.DAL\\E-ShopMicroservices.Data.DAL.csproj": {
+                "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Data.DAL\\E-ShopMicroservices.Data.DAL.csproj"
+              },
+              "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [

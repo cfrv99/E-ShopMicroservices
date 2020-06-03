@@ -1,0 +1,9 @@
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.UserService.Application\bin\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Application.deps.json
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.UserService.Application\bin\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Application.dll
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.UserService.Application\bin\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Application.pdb
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.UserService.Application\obj\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Application.csprojAssemblyReference.cache
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.UserService.Application\obj\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Application.csproj.CoreCompileInputs.cache
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.UserService.Application\obj\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Application.AssemblyInfoInputs.cache
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.UserService.Application\obj\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Application.AssemblyInfo.cs
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.UserService.Application\obj\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Application.dll
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservices.UserService.Application\obj\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Application.pdb

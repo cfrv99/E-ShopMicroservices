@@ -71,3 +71,4 @@ C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservice.Microservices
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservice.Microservices.ProductService.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservice.Microservices.ProductService.API\obj\Debug\netcoreapp3.1\E-ShopMicroservice.Microservices.ProductService.API.csproj.CoreCompileInputs.cache
 C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservice.Microservices.ProductService.API\obj\Debug\netcoreapp3.1\E-ShopMicroservice.Microservices.ProductService.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Murad\source\repos\E-ShopMicroServices\E-ShopMicroservice.Microservices.ProductService.API\bin\Debug\netcoreapp3.1\FluentValidation.dll
