@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b3OY3Cq2EDbrELgYWJiy156IsQgH+3nYPheNLACqjf/x3hiJhgE7JEbN8rjUjOPVLUCe/Q87PGQ9IIs1EEbtIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Murad\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
