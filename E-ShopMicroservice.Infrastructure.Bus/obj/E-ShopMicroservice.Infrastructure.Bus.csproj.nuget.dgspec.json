@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj": {}
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj": {
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj",
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj",
         "projectName": "E-ShopMicroservice.Infrastructure.Bus",
-        "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservice.Infrastructure.Bus\\E-ShopMicroservice.Infrastructure.Bus.csproj",
         "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservice.Infrastructure.Bus\\obj\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservice.Infrastructure.Bus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj"
+              "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj": {
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj",
         "projectName": "E-ShopMicroservices.Domain.Core",
-        "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\obj\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -33,6 +33,10 @@ namespace E_ShopMicroservice.Microservices.ProductService.API
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));//,config=>config.MigrationsAssembly("E-ShopMicroservice.Microservices.ProductService.Infrastructure")));
             services.AddControllers();
             services.AddMediatR(typeof(Startup));
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Product Microservice", Version = "v1" });
+            });
         }
 
 
@@ -53,7 +57,11 @@ namespace E_ShopMicroservice.Microservices.ProductService.API
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Product Microservice V1");
+            });
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

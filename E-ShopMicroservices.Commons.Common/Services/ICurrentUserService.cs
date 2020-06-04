@@ -6,6 +6,6 @@ namespace E_ShopMicroservices.Commons.Common.Services
 {
     public interface ICurrentUserService
     {
-        long? UserId { get; }
+        string UserId { get; }
     }
 }

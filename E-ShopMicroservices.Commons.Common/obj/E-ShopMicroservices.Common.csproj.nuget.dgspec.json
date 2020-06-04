@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj": {}
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj": {
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj",
         "projectName": "E-ShopMicroservices.Common",
-        "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj",
         "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\obj\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,14 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.6.0, )"
             }
           },
           "imports": [

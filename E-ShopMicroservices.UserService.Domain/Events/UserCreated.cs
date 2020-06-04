@@ -7,10 +7,10 @@ namespace E_ShopMicroservices.UserService.Domain.Events
 {
     public class UserCreated:Event
     {
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public string UserName { get; set; }
 
-        public UserCreated(int userId,string userName)
+        public UserCreated(string userId,string userName)
         {
             UserId = userId;
             UserName = userName;

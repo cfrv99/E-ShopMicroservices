@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.UserService.Data\\E-ShopMicroservices.UserService.Data.csproj": {}
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.UserService.Data\\E-ShopMicroservices.UserService.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj": {
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj",
         "projectName": "E-ShopMicroservices.Common",
-        "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj",
         "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\obj\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,14 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.6.0, )"
             }
           },
           "imports": [
@@ -62,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj": {
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj",
         "projectName": "E-ShopMicroservices.Domain.Core",
-        "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\obj\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.UserService.Data\\E-ShopMicroservices.UserService.Data.csproj": {
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.UserService.Data\\E-ShopMicroservices.UserService.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.UserService.Data\\E-ShopMicroservices.UserService.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.UserService.Data\\E-ShopMicroservices.UserService.Data.csproj",
         "projectName": "E-ShopMicroservices.UserService.Data",
-        "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.UserService.Data\\E-ShopMicroservices.UserService.Data.csproj",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.UserService.Data\\E-ShopMicroservices.UserService.Data.csproj",
         "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.UserService.Data\\obj\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.UserService.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -143,11 +151,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj": {
-                "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj"
+              "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj"
               },
-              "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.UserService.Domain\\E-ShopMicroservices.UserService.Domain.csproj": {
-                "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.UserService.Domain\\E-ShopMicroservices.UserService.Domain.csproj"
+              "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.UserService.Domain\\E-ShopMicroservices.UserService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.UserService.Domain\\E-ShopMicroservices.UserService.Domain.csproj"
               }
             }
           }
@@ -209,14 +217,14 @@
         }
       }
     },
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.UserService.Domain\\E-ShopMicroservices.UserService.Domain.csproj": {
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.UserService.Domain\\E-ShopMicroservices.UserService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.UserService.Domain\\E-ShopMicroservices.UserService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.UserService.Domain\\E-ShopMicroservices.UserService.Domain.csproj",
         "projectName": "E-ShopMicroservices.UserService.Domain",
-        "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.UserService.Domain\\E-ShopMicroservices.UserService.Domain.csproj",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.UserService.Domain\\E-ShopMicroservices.UserService.Domain.csproj",
         "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.UserService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.UserService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -232,8 +240,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj"
+              "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Commons.Common\\E-ShopMicroservices.Common.csproj"
+              },
+              "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj"
               }
             }
           }
@@ -258,6 +269,14 @@
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.6.0, )"
             }
           },
           "imports": [

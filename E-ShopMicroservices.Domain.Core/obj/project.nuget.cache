@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b3OY3Cq2EDbrELgYWJiy156IsQgH+3nYPheNLACqjf/x3hiJhgE7JEbN8rjUjOPVLUCe/Q87PGQ9IIs1EEbtIA==",
+  "dgSpecHash": "iBCTOA8PDDexREpp0Y9EQyE4I+cS9Q75atr07N4g9T8fJg39nXYSL3Me5iHuqaa+6+485Uwqerd9H0x6Hu/1GA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj",
+  "projectFilePath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.Domain.Core\\E-ShopMicroservices.Domain.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Murad\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
   ],

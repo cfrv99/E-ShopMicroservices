@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.ApiGateway\\E-ShopMicroservices.ApiGateway.csproj": {}
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.ApiGateway\\E-ShopMicroservices.ApiGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.ApiGateway\\E-ShopMicroservices.ApiGateway.csproj": {
+    "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.ApiGateway\\E-ShopMicroservices.ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.ApiGateway\\E-ShopMicroservices.ApiGateway.csproj",
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.ApiGateway\\E-ShopMicroservices.ApiGateway.csproj",
         "projectName": "E-ShopMicroservices.ApiGateway",
-        "projectPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.ApiGateway\\E-ShopMicroservices.ApiGateway.csproj",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.ApiGateway\\E-ShopMicroservices.ApiGateway.csproj",
         "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.ApiGateway\\obj\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",

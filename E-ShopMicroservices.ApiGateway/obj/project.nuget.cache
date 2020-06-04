@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7hZ2pN3VCEOWfbkxAXf+0dALy69/+jkgwuCUurFfahWcDouY++NZ1AQEM393+ZOGA8gqbhpSk8pH6RhM2gi82Q==",
+  "dgSpecHash": "niMs2DvzbRKq7lUlrIfbFDEOgNQ2ocRsrPWejdy1W2woyGtJCaahTUzkY3pazJW69++/1SjvbEOLO/80gKm4ZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Murad\\source\\repos\\E-ShopMicroServices\\E-ShopMicroservices.ApiGateway\\E-ShopMicroservices.ApiGateway.csproj",
+  "projectFilePath": "C:\\Users\\Murad\\Desktop\\E-ShopMicroservices\\E-ShopMicroservices.ApiGateway\\E-ShopMicroservices.ApiGateway.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

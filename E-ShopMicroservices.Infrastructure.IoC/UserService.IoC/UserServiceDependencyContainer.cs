@@ -10,7 +10,7 @@ namespace E_ShopMicroservices.Infrastructure.IoC.UserService.IoC
     {
         public static void UserServiceRegister(this IServiceCollection services)
         {
-            services.AddTransient<IUserManager, UserManager>();
+            //services.AddTransient<IUserManager, UserManager>();
         }
     }
 }
