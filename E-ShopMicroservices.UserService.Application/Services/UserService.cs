@@ -1,6 +1,7 @@
 ﻿using E_ShopMicroservices.Commons.Common.Exceptions;
 using E_ShopMicroservices.UserService.Data.Context;
 using E_ShopMicroservices.UserService.Domain.Entites;
+using E_ShopMicroservices.UserService.Domain.JwtTokenService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
@@ -15,12 +16,14 @@ namespace E_ShopMicroservices.UserService.Application.Services
     public class UserService : IUserService
     {
         private readonly UserManager<UserIdentity> _userManager;
+        private readonly IJwtGenerator jwtGenerator;
         private readonly SignInManager<UserIdentity> _signInManager;
         private readonly UserAppDbContext context;
 
-        public UserService(UserManager<UserIdentity> userManager, SignInManager<UserIdentity> signInManager,UserAppDbContext context)
+        public UserService(UserManager<UserIdentity> userManager , IJwtGenerator jwtGenerator ,SignInManager<UserIdentity> signInManager,UserAppDbContext context)
         {
             this._userManager = userManager;
+            this.jwtGenerator = jwtGenerator;
             this._signInManager = signInManager;
             this.context = context;
         }
@@ -65,7 +68,7 @@ namespace E_ShopMicroservices.UserService.Application.Services
                 var user = await _userManager.FindByNameAsync(username);
                 var result = _signInManager.PasswordSignInAsync(user, password, false, false).Result;
                 if (result.Succeeded)
-                {
+                {                  
                     return user;
                 }
                 else

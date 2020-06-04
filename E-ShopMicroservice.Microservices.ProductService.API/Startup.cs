@@ -2,7 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using E_ShopMicroservice.Infrastructure.Bus.Buses;
+using E_ShopMicroservice.Microservices.ProductService.Domain.EventHandlers;
+using E_ShopMicroservice.Microservices.ProductService.Domain.Events;
 using E_ShopMicroservices.Data.DAL.Context;
+using E_ShopMicroservices.Domain.Core.Bus;
 using E_ShopMicroservices.Infrastructure.IoC;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -29,7 +33,7 @@ namespace E_ShopMicroservice.Microservices.ProductService.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            RegisterService(services);
+            //RegisterService(services);
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));//,config=>config.MigrationsAssembly("E-ShopMicroservice.Microservices.ProductService.Infrastructure")));
             services.AddControllers();
             services.AddMediatR(typeof(Startup));
@@ -37,6 +41,7 @@ namespace E_ShopMicroservice.Microservices.ProductService.API
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Product Microservice", Version = "v1" });
             });
+            services.AddTransient<IEventBus, RabbitMqBus>();
         }
 
 
@@ -66,6 +71,14 @@ namespace E_ShopMicroservice.Microservices.ProductService.API
             {
                 endpoints.MapControllers();
             });
+
+            ConfigureEventBus(app);
+        }
+
+        private void ConfigureEventBus(IApplicationBuilder app)
+        {
+            var eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+            eventBus.Subscribe<UserCreated, UserCreatedEventHandler>();
         }
     }
 }

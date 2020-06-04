@@ -9,7 +9,7 @@ namespace E_ShopMicroservices.UserService.Domain.Entites
         public int Id { get; set; }
         public string RefreshToken { get; set; }
         public DateTime ExpireDate { get; set; }
-        public int AppUserId { get; set; }
+        public string AppUserId { get; set; }
         public AppUser AppUser { get; set; }
     }
 }

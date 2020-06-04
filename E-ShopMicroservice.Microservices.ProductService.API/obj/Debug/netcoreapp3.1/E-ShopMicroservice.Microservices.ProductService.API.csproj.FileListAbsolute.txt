@@ -307,3 +307,12 @@ C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.Prod
 C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\obj\Debug\netcoreapp3.1\E-ShopMicroservice.Microservices.ProductService.API.csproj.CoreCompileInputs.cache
 C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\obj\Debug\netcoreapp3.1\E-ShopMicroservice.Microservices.ProductService.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\obj\Debug\netcoreapp3.1\E-ShopMicroservice.Microservices.ProductService.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\bin\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Application.dll
+C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\bin\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Data.dll
+C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\bin\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Application.pdb
+C:\Users\Murad\Desktop\E-ShopMicroservices\E-ShopMicroservice.Microservices.ProductService.API\bin\Debug\netcoreapp3.1\E-ShopMicroservices.UserService.Data.pdb

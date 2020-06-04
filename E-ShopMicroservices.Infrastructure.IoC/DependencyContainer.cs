@@ -27,6 +27,7 @@ namespace E_ShopMicroservices.Infrastructure.IoC
             services.AddTransient<IRequestHandler<AddUserCommand, UserDTO>, AddUserCommandHandler>();
             services.AddTransient<IRequestHandler<LoginUserCommand, UserModel>, LoginUserCommandHandler>();
             services.AddTransient<IRequestHandler<GetUserQuery, UserModel>, GetUserCommandHandler>();
+            services.AddTransient<IRequestHandler<RevokeRequestCommand, AccessTokenModel>, RevokeRequestCommandHandler>();
             services.AddTransient<IUserService, E_ShopMicroservices.UserService.Application.Services.UserService>();
             services.AddTransient<IJwtGenerator, JwtGenerator>();
             //services.AddTransient(typeof(UserManager<>));

@@ -43,7 +43,7 @@ namespace E_ShopMicroservices.UserService.Application.Users.Commands
             };
             
             var user = await userService.AddUser(appUser, request.Password);
-            eventBus.Publish<UserCreated>(new UserCreated(user.Id, user.UserName));
+            eventBus.Publish(new UserCreated(user.Id, user.UserName));
             return new UserDTO
             {
                 Id=user.Id,

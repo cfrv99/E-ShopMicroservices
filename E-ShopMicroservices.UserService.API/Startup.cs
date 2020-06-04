@@ -43,7 +43,7 @@ namespace E_ShopMicroservices.UserService.API
             services.AddIdentity<UserIdentity, Role>().AddEntityFrameworkStores<UserAppDbContext>()
                 .AddDefaultTokenProviders();
             services.AddDbContext<UserAppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            
+            services.AddAuthorization();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "User Microservice", Version = "v1" });
@@ -91,12 +91,13 @@ namespace E_ShopMicroservices.UserService.API
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseAuthentication();
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Product Microservice V1");
             });
+            app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

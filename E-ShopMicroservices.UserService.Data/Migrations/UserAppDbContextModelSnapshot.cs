@@ -53,10 +53,7 @@ namespace E_ShopMicroservices.UserService.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("AppUserId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("AppUserId1")
+                    b.Property<string>("AppUserId")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("ExpireDate")
@@ -67,7 +64,7 @@ namespace E_ShopMicroservices.UserService.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AppUserId1");
+                    b.HasIndex("AppUserId");
 
                     b.ToTable("Tokens");
                 });
@@ -258,7 +255,7 @@ namespace E_ShopMicroservices.UserService.Data.Migrations
                 {
                     b.HasOne("E_ShopMicroservices.UserService.Domain.Entites.AppUser", "AppUser")
                         .WithMany()
-                        .HasForeignKey("AppUserId1");
+                        .HasForeignKey("AppUserId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

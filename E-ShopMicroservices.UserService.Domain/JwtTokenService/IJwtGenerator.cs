@@ -8,5 +8,6 @@ namespace E_ShopMicroservices.UserService.Domain.JwtTokenService
     public interface IJwtGenerator
     {
         string CreateToken(UserIdentity user);
+        string GenerateRefreshToken();
     }
 }

@@ -9,5 +9,6 @@ namespace E_ShopMicroservices.UserService.Application.Models
         public string Id { get; set; }
         public string Name { get; set; }
         public string Access_Token { get; set; }
+        public string RefreshToken { get; set; }
     }
 }

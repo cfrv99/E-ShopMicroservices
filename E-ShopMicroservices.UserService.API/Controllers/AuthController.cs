@@ -6,6 +6,7 @@ using E_ShopMicroservices.UserService.Application.Models;
 using E_ShopMicroservices.UserService.Application.Users.Commands;
 using E_ShopMicroservices.UserService.Application.Users.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,7 +17,7 @@ namespace E_ShopMicroservices.UserService.API.Controllers
     [ApiController]
     public class AuthController : ApiController
     {
-        
+
         [HttpPost("register")]
         public async Task<ActionResult<UserDTO>> Add(AddUserCommand command)
         {
@@ -27,12 +28,17 @@ namespace E_ShopMicroservices.UserService.API.Controllers
         {
             return await Mediator.Send(command);
         }
-
         [HttpGet("getUser/{userId}")]
+        [Authorize]
         public async Task<ActionResult<UserModel>> GetUser([FromRoute]GetUserQuery query)
         {
+            return await Mediator.Send(new GetUserQuery() { userId = query.userId });
+        }
 
-            return await Mediator.Send(new GetUserQuery() { userId=query.userId });
+        [HttpPost("revokeToken")]
+        public async Task<ActionResult<AccessTokenModel>> GetRefreshToken(RevokeRequestCommand command)
+        {
+            return await Mediator.Send(command);
         }
     }
 }
